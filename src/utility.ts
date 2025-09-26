@@ -28,12 +28,12 @@ let newShape: Required<Car> = {
     price: 50000000,
     isCNG: true,
 }
-console.log(newShape);
+console.log(newShape);  
 
 //record- Record is a shortcut to defining an object type with a specific key type and value type.
 
-const newStudent: Record<string, number> = {
-    'raghav': 21,
+const newStudent: Record<string, number> = {   
+    'raghav': 21,  
     'prakhar': 22,
     
 }
@@ -68,5 +68,5 @@ console.log(selectOne);
 
 type Primitive = string | number | boolean 
 const value: Exclude<Primitive, string> = true;       
-console.log(value);                                      
+console.log(value);                                         
 
